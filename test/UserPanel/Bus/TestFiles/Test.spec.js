@@ -10,6 +10,7 @@ test.beforeAll(async ({ browser }) => {
        const context = await browser.newContext();
        page = await context.newPage();
        userControllerPage = new UserControllerPage(page);
+       await this.page.goto("https://dev-jatri.jatritech.com/");
 });
 
 test('@PurchaseSingleSeat @PurchaseMultipleSeat Test-3 :: Enter From City for searching trips', async () => {

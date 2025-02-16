@@ -4,7 +4,7 @@ class HomePage {
     }
 
     async openHomepage() {
-        await this.page.goto("https://dev-jatri.jatritech.com/");
+        //await this.page.goto("https://dev-jatri.jatritech.com/");
     }
 }
 
